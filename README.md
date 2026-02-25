@@ -9,3 +9,12 @@ cd Recon
 Step 2 Execution 
 
  ./Recon.sh domain_name.com
+
+
+
+Output 
+
+ Show Output 
+
+ 1. output (folder)
+ 2. recon.log (log file)
