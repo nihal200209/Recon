@@ -131,6 +131,7 @@ Checks for important HTTP security headers.
 6. Output Directory Structure
 
 output/
+  
    └── target.com/
          
          ├── subdomains.txt
