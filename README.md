@@ -157,28 +157,45 @@ output/
 
 
 6. Required Dependencies
+
 •	curl
+
 •	wget
+
 •	git
+
 •	nmap
+
 •	jq
+
 •	golang
+
 •	subfinder
+
 •	httpx
+
 •	waybackurls
+
 •	gau
+
 •	katana
 
 
 7. Installation Commands
 
 sudo apt update && sudo apt upgrade -y
+
 sudo apt install curl wget git nmap jq golang -y
 
+
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+
 go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
+
 go install github.com/tomnomnom/waybackurls@latest
+
 go install github.com/lc/gau/v2/cmd/gau@latest
+
 go install github.com/projectdiscovery/katana/cmd/katana@latest
 
 8. How to Run the Tool
@@ -187,25 +204,40 @@ chmod +x Recon.sh
 
 
 9. Advantages
+
 •	Fully automated workflow
+
 •	Structured output management
+
 •	Time-efficient reconnaissance
+
 •	Bug bounty ready framework
+
 •	Integrated multi-tool support
 
 10. Limitations
+
 •	Pattern-based detection only (no exploitation)
+
 •	No rate limiting control
+
 •	No auto PDF/HTML report generation
+
 •	No built-in WAF detection
 
 
 11. Future Improvements
+
 •	Integrate Nuclei for vulnerability scanning
+
 •	Add parallel processing
+
 •	Add JSON export option
+
 •	Generate automatic HTML/PDF reports
+
 •	Add Telegram/Slack notifications
+
 •	Implement rate limiting and WAF detection
 
 
