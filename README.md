@@ -79,56 +79,80 @@ Structured Output Report
 
 4. Features Breakdown
 
-Subdomain Enumeration
+Subdomain Enumeration:
 
 Uses subfinder to discover subdomains.
 
-Live Host Detection
+Live Host Detection:
 
 Uses httpx to detect active hosts.
 
-Technology Fingerprinting
+Technology Fingerprinting:
 
 Identifies technologies, titles, and status codes.
 
-Port Scanning
+Port Scanning:
 
 Uses nmap to scan top 1000 ports.
 
-Admin Panel Discovery
+Admin Panel Discovery:
 
 Detects common admin paths using curl.
 
-URL Collection
+URL Collection:
 Uses waybackurls, gau, and katana.
-Vulnerability Pattern Detection
+
+Vulnerability Pattern Detection:
+
 Filters URLs for XSS, IDOR, SQLi, Open Redirect.
-JavaScript Discovery
+
+JavaScript Discovery:
+
 Finds JS files for further analysis.
-API Endpoint Detection
+
+API Endpoint Detection:
+
 Detects API version endpoints.
-Sensitive File Detection
+
+Sensitive File Detection:
+
 Detects exposed backup, config, and environment files.
-Cloud Asset Detection
+
+Cloud Asset Detection:
+
 Identifies S3, GCP, and Azure storage links.
-Security Header Check
+
+Security Header Check:
+
 Checks for important HTTP security headers.
+
 
 
 6. Output Directory Structure
 
 output/
    └── target.com/
+         
          ├── subdomains.txt
+         
          ├── live_hosts.txt
+         
          ├── tech.txt
+         
          ├── ports.txt
+         
          ├── urls.txt
+         
          ├── xss_urls.txt
+         
          ├── idor_urls.txt
+         
          ├── sqli_urls.txt
+         
          ├── security_headers.txt
+         
          └── recon.log
+         
 
 
 6. Required Dependencies
