@@ -7,7 +7,9 @@ git clone https://github.com/nihal200209/Recon.git
 cd Recon 
 
 Step 2 How to Run the Tool
+
 chmod +x Recon.sh
+
 ./Recon.sh  example.com (domain)
 
 Project : 
