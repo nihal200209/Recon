@@ -16,10 +16,15 @@ Project :
 Recon is an automated Bash-based reconnaissance framework designed for authorized security testing and bug bounty reconnaissance. The tool integrates multiple industry-standard recon utilities into a single structured workflow to automate the information gathering phase of penetration testing.
 
 2. Objectives of the Project
+
 •	Automate reconnaissance workflow
+
 •	Reduce manual effort during bug bounty hunting
+
 •	Organize outputs into structured directories
+
 •	Identify high-value vulnerability candidates
+
 •	Generate logs for reporting and documentation
 
 3. Architecture & Workflow
