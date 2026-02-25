@@ -25,28 +25,51 @@ Recon is an automated Bash-based reconnaissance framework designed for authorize
 3. Architecture & Workflow
 
 Target Domain
+
    ↓
+   
 Subdomain Enumeration
+
    ↓
+   
 Live Host Detection
+
    ↓
+   
 Technology Fingerprinting
+
    ↓
+   
 Port Scanning
+
    ↓
+   
 Admin Panel Discovery
+
    ↓
+   
 URL Collection
+
    ↓
+   
 Parameter Extraction
+
    ↓
+   
 Vulnerability Pattern Detection
+
    ↓
+   
 Cloud & Sensitive File Detection
+
    ↓
+   
 Security Header Analysis
+
    ↓
+   
 Structured Output Report
+
 
 
 4. Features Breakdown
