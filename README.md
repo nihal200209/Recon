@@ -78,16 +78,27 @@ Structured Output Report
 
 
 4. Features Breakdown
+
 Subdomain Enumeration
+
 Uses subfinder to discover subdomains.
+
 Live Host Detection
+
 Uses httpx to detect active hosts.
+
 Technology Fingerprinting
+
 Identifies technologies, titles, and status codes.
+
 Port Scanning
+
 Uses nmap to scan top 1000 ports.
+
 Admin Panel Discovery
+
 Detects common admin paths using curl.
+
 URL Collection
 Uses waybackurls, gau, and katana.
 Vulnerability Pattern Detection
@@ -104,7 +115,7 @@ Security Header Check
 Checks for important HTTP security headers.
 
 
-5. Output Directory Structure
+6. Output Directory Structure
 
 output/
    └── target.com/
