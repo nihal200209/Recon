@@ -8,9 +8,11 @@ sudo apt install golang -y
  Step 2 : 
  
  Version check 
+ 
  go version
  
-  Step 3: Clone Repository
+  Step 3: 
+  Clone Repository
 
 git clone https://github.com/nihal200209/Recon.git
 cd Recon 
