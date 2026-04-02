@@ -15,30 +15,50 @@ sudo apt install golang -y
   Clone Repository
 
 git clone https://github.com/nihal200209/Recon.git
+
 cd Recon 
 
-Step 4:  Install dependencies 
+Step 4: 
+Install dependencies 
+
 go install github.com/projectdiscovery/httpx/cmd/httpx@latest
+
 go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+
 go install github.com/lc/gau/v2/cmd/gau@latest
+
 go install github.com/tomnomnom/waybackurls@latest
 
-Step 5: set path 
+
+Step 5: 
+set path 
+
 echo 'export PATH=$PATH:$HOME/go/bin' >> ~/.bashrc
+
 source ~/.bashrc
 
-Step 6: install nmap 
+Step 6: 
+install nmap 
+
 sudo apt install nmap -y
 
 step 7: test karo 
+
 which httpx
+
 which subfinder
+
 httpx -h
+
 subfinder -h
 
-Step 8:  How to Run the Tool
+Step 8: 
+How to Run the Tool
+
 chmod +x Recon.sh
+
 ./Recon.sh  example.com (domain)
+
 
 Project : 
 
