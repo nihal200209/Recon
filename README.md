@@ -1,9 +1,13 @@
 # Recon
 
-Step 1: sudo apt update && sudo apt upgrade -y
+Step 1: 
+
+sudo apt update && sudo apt upgrade -y
 sudo apt install golang -y
 
- Step 2 :  Version check 
+ Step 2 : 
+ 
+ Version check 
  go version
  
   Step 3: Clone Repository
